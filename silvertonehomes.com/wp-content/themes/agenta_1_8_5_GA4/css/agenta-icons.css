@@ -1,0 +1,558 @@
+/* Webfont: Agenta Icons */
+
+@font-face {
+    font-family: 'agenta-icons';
+    src: url(fonts/agenta-icons.eot);
+    /* IE9 Compat Modes */
+    src: url(fonts/agenta-icons.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(fonts/agenta-icons.woff) format('woff'), /* Modern Browsers */
+    url(fonts/agenta-icons.ttf) format('truetype'), /* Safari, Android, iOS */
+    url(fonts/agenta-icons.svg#agenta-icons) format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'agenta-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-triangle-down:before {
+    font-family: 'agenta-icons';
+    content: "\e92d";
+}
+
+.icon-arrow-triangle-left:before,
+body.thin-triangle-arrow .flickity-prev-next-button.previous:before,
+#thin-triangle-arrow.carousel-control-prev-icon:before,
+.thin-triangle-arrow.carousel-control-prev-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e92f";
+}
+
+.icon-arrow-triangle-right:before,
+body.thin-triangle .flickity-prev-next-button.prev:before,
+#thin-triangle-arrow.carousel-control-next-icon:before,
+.thin-triangle-arrow.carousel-control-next-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e931";
+}
+
+.icon-arrow-triangle-up:before {
+    font-family: 'agenta-icons';
+    content: "\e938";
+}
+
+.icon-thick-chevron-down:before {
+    font-family: 'agenta-icons';
+    content: "\e933";
+}
+
+.icon-thick-chevron-up:before {
+    font-family: 'agenta-icons';
+    content: "\e934";
+}
+
+.icon-thin-arrow-down:before {
+    font-family: 'agenta-icons';
+    content: "\e935";
+}
+
+.icon-thin-arrow-left:before,
+body.thin-arrow .flickity-prev-next-button.previous:before,
+#thin-arrow.carousel-control-prev-icon:before,
+.thin-arrow.carousel-control-prev-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e936";
+}
+
+.icon-thin-arrow-right:before,
+.thin-arrow .flickity-prev-next-button.next:before,
+#thin-arrow.carousel-control-next-icon:before,
+.thin-arrow.carousel-control-next-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e937";
+}
+
+.icon-thin-arrow-up:before {
+    font-family: 'agenta-icons';
+    content: "\e932";
+}
+
+.icon-thin-chevron-down:before {
+    font-family: 'agenta-icons';
+    content: "\e939";
+}
+
+.icon-thin-chevron-left:before,
+body.thin-chevron button.previous:before,
+#thin-chevron.carousel-control-prev-icon:before,
+.thin-chevron.carousel-control-prev-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e93a";
+}
+
+.icon-thin-chevron-right:before,
+body.thin-chevron button.next:before,
+#thin-chevron.carousel-control-next-icon:before,
+.thin-chevron.carousel-control-next-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e93b";
+}
+
+.icon-thin-chevron-up:before {
+    font-family: 'agenta-icons';
+    content: "\e93c";
+}
+
+.icon-thin-double-arrow-down:before {
+    font-family: 'agenta-icons';
+    content: "\e93d";
+}
+
+.icon-thin-double-arrow-left:before,
+body.double-line button.previous:before,
+#double-line.carousel-control-prev-icon:before,
+.double-line.carousel-control-prev-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e93e";
+}
+
+.icon-thin-double-arrow-right:before,
+body.double-line button.next:before,
+#double-line.carousel-control-next-icon:before,
+.double-line.carousel-control-next-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e93f";
+}
+
+.icon-thin-double-arrow-up:before {
+    font-family: 'agenta-icons';
+    content: "\e940";
+}
+
+.icon-triangle-outline-down:before {
+    font-family: 'agenta-icons';
+    content: "\e941";
+}
+
+.icon-triangle-outline-left:before,
+body.thin-triangle button.previous:before,
+#thin-triangle.carousel-control-prev-icon:before,
+.thin-triangle.carousel-control-prev-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e942";
+}
+
+.icon-triangle-outline-right:before,
+body.thin-triangle button.next:before,
+#thin-triangle.carousel-control-next-icon:before,
+.thin-triangle.carousel-control-next-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e943";
+}
+
+.icon-triangle-outline-up:before {
+    font-family: 'agenta-icons';
+    content: "\e944";
+}
+
+.icon-close:before {
+    font-family: 'agenta-icons';
+    content: "\e924";
+}
+
+.icon-menu:before {
+    font-family: 'agenta-icons';
+    content: "\e925";
+}
+
+.icon-thick-chevron-left:before,
+body.thick-chevron button.previous:before,
+#thick-chevron.carousel-control-prev-icon:before,
+.thick-chevron.carousel-control-prev-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e922";
+}
+
+.icon-thick-chevron-right:before,
+body.thick-chevron button.next:before,
+#thick-chevron.carousel-control-next-icon:before,
+.thick-chevron.carousel-control-next-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e923";
+    display: block;
+}
+
+.icon-tiktok-outline:before {}
+
+.icon-tiktok-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e92e";
+}
+
+.icon-zillow-outline:before {}
+
+.icon-zillow-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e930";
+}
+
+.icon-google-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e945";
+}
+
+.icon-communication-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e92a";
+}
+
+.icon-handshake-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e92b";
+}
+
+.icon-watch-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e92c";
+}
+
+.icon-airplane-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e926";
+}
+
+.icon-binocular-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e927";
+}
+
+.icon-chart-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e928";
+}
+
+.icon-hand-key-icon:before {
+    font-family: 'agenta-icons';
+    content: "\e929";
+}
+
+.icon-chevron-left:before {
+    font-family: 'agenta-icons';
+    content: "\e922";
+}
+
+.icon-chevron-right:before {
+    font-family: 'agenta-icons';
+    content: "\e923";
+}
+
+.icon-close:before {
+    font-family: 'agenta-icons';
+    content: "\e924";
+}
+
+.icon-menu:before {
+    font-family: 'agenta-icons';
+    content: "\e925";
+}
+
+.icon-bath-shower-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e900";
+}
+
+.icon-bath-shower-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e901";
+}
+
+.icon-bath-tub-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e902";
+}
+
+.icon-bath-tub-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e903";
+}
+
+.icon-bed-pillows-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e904";
+}
+
+.icon-bed-pillows-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e905";
+}
+
+.icon-bed-sleeping-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e906";
+}
+
+.icon-bed-sleeping-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e907";
+}
+
+.icon-sqft-house-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e918";
+}
+
+.icon-sqft-house-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e919";
+}
+
+.icon-sqft-ruler-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e91a";
+}
+
+.icon-sqft-ruler-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e91b";
+}
+
+.icon-email-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e908";
+}
+
+.icon-email-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e909";
+}
+
+.icon-facebook-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e90a";
+}
+
+.icon-facebook-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e90b";
+}
+
+.icon-twitter-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e90c";
+}
+
+.icon-twitter-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e91d";
+}
+
+.icon-instagram-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e90e";
+}
+
+.icon-instagram-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e90d";
+}
+
+.icon-youtube-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e916";
+}
+
+.icon-youtube-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e921";
+}
+
+.icon-linkedin-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e91c";
+}
+
+.icon-linkedin-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e90f";
+}
+
+.icon-yelp-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e91e";
+}
+
+.icon-yelp-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e91f";
+}
+
+.icon-pinterest-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e920";
+}
+
+.icon-pinterest-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e917";
+}
+
+.icon-location-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e910";
+}
+
+.icon-location-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e911";
+}
+
+.icon-mobile-phone-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e912";
+}
+
+.icon-mobile-phone-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e913";
+}
+
+.icon-phone-outline:before {
+    font-family: 'agenta-icons';
+    content: "\e914";
+}
+
+.icon-phone-solid:before {
+    font-family: 'agenta-icons';
+    content: "\e915";
+}
+
+/*
+.thinline.agent-phone::before,.thinline.brokerage-phone::before {
+    font-family: 'agenta-icons';
+  content: "\e912";
+}
+.thinline.agent-email::before,.thinline.brokerage-email::before {
+    font-family: 'agenta-icons';
+  content: "\e908";
+}
+.thinline.agent-address::before,.thinline.brokerage-address::before {
+    font-family: 'agenta-icons';
+  content: "\e910";
+}
+.solid.agent-phone::before,.solid.brokerage-phone::before {
+    font-family: 'agenta-icons';
+  content: "\e913";
+}
+.solid.agent-email::before,.solid.brokerage-email::before {
+    font-family: 'agenta-icons';
+  content: "\e909";
+}
+.solid.agent-address::before,.solid.brokerage-address::before {
+    font-family: 'agenta-icons';
+  content: "\e911";
+}
+*/
+
+.thinline.linkedin::before {
+    font-family: 'agenta-icons';
+    content: "\e91c";
+}
+
+.thinline.instagram::before {
+    font-family: 'agenta-icons';
+    content: "\e90e";
+}
+
+.thinline.facebook::before {
+    font-family: 'agenta-icons';
+    content: "\e90a";
+}
+
+.thinline.youtube::before {
+    font-family: 'agenta-icons';
+    content: "\e916";
+}
+
+.thinline.yelp::before {
+    font-family: 'agenta-icons';
+    content: "\e91e";
+}
+
+.thinline.twitter::before {
+    font-family: 'agenta-icons';
+    content: "\e90c";
+}
+
+.thinline.pinterest::before {
+    font-family: 'agenta-icons';
+    content: "\e920";
+}
+
+.solid.linkedin::before {
+    font-family: 'agenta-icons';
+    content: "\e90f";
+}
+
+.solid.instagram::before {
+    font-family: 'agenta-icons';
+    content: "\e90d";
+}
+
+.solid.facebook::before {
+    font-family: 'agenta-icons';
+    content: "\e90b";
+}
+
+.solid.youtube::before {
+    font-family: 'agenta-icons';
+    content: "\e921";
+}
+
+.solid.yelp::before {
+    font-family: 'agenta-icons';
+    content: "\e91f";
+}
+
+.solid.twitter::before {
+    font-family: 'agenta-icons';
+    content: "\e91d";
+}
+
+.solid.pinterest::before {
+    font-family: 'agenta-icons';
+    content: "\e917";
+}
+
+.solid.tiktok:before {
+    font-family: 'agenta-icons';
+    content: "\e92e";
+}
+
+.thinline.tiktok:before {}
+
+.solid.zillow:before {
+    font-family: 'agenta-icons';
+    content: "\e930";
+}
+
+.thinline.zillow:before {}
+
+.solid.google:before {
+    font-family: 'agenta-icons';
+    font-family: 'agenta-icons';
+    content: "\e945";
+}
